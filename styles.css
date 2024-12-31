@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+  --primary-font: "Inter", serif;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 1440px) {
+}
+
+body {
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 48%;
+  object-fit: fill;
+}
+
+.button {
+  text-decoration: none;
+}
