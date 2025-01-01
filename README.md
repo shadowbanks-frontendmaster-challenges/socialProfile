@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/shadowbanks/socialProfile)
-- Live Site URL: [Github Page](https://shadowbanks.github.io/socialProfile/)
+- Solution URL: [Github](https://github.com/shadowbanks-frontendmaster-challenges/socialProfile)
+- Live Site URL: [Github Page](https://shadowbanks-frontendmaster-challenges.github.io/socialProfile/)
 
 ## My process
 
