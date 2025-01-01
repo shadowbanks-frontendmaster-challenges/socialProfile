@@ -20,13 +20,6 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 375px) {
-
-  body .container {
-    margin: 0;
-  }
-}
-
 body {
   min-height: 100vh;
   background-color: var(--Grey-900);
@@ -47,7 +40,14 @@ body {
   background-color: var(--Grey-800);
   border-radius: 1rem;
   padding: 1.8rem;
-  /* margin: 15rem 10rem; */
+  margin: 17rem 0;
+  /* height: 80vh; */
+}
+
+@media (min-width: 375px) {
+  .container {
+    margin: 0;
+  }
 }
 
 .avatar {
@@ -62,20 +62,20 @@ body {
 }
 
 .name {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: var(--font-weight-1);
 }
 
 .address {
   color: var(--green);
   font-weight: var(--font-weight-2);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-style: normal;
 }
 
 .profession {
   padding: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: var(--font-weight-3);
   color: hsla(0, 0%, 100%, 0.9);
   margin: 0 1rem;
@@ -94,7 +94,7 @@ body {
   border-radius: 0.5rem;
   margin-top: 1.3rem;
   font-weight: var(--font-weight-2);
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.8rem 0;
 }
 
